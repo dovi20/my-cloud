@@ -1,0 +1,123 @@
+.App {
+  max-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  width: 100%;
+  height: 150px;
+  border-bottom: 3px solid grey;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.main {
+  border: 3px solid;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100vh;
+}
+.header-main {
+  width: 100%;
+  border-bottom: 1px solid;
+  text-align: center;
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+}
+.content-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+.folders {
+  width: 50%;
+  border-right: 1px solid;
+}
+.files {
+  width: 50%;
+}
+.popup {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.popup-content {
+  min-height: 200px;
+  min-width: 150px;
+  background-color: rgb(216, 221, 224);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid yellow;
+  border-radius: 5%;
+}
+.close-button {
+  width: fit-content;
+  border-radius: 5%;
+}
+button {
+  background-color: antiquewhite;
+  border: 1px solid darkkhaki;
+  height: 40px;
+  border-radius: 5%;
+}
+input {
+  margin-bottom: 20px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px yellow;
+}
+.folder-div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.folder {
+  padding: 5px;
+  background-color: whitesmoke;
+  margin: 5px;
+  box-shadow: 1px 1px 5px black;
+  height: 130px;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+}
+.folder-icon{
+  font-size: 80px;
+  color: rgb(28, 46, 2);  
+ 
+}
+.file{
+  padding: 5px;
+  background-color: whitesmoke;
+  margin: 5px;
+  box-shadow: 1px 1px 5px black;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.files-icon{
+  font-size: 30px;
+  padding-right: 10px;
+}
+
+
